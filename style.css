@@ -54,7 +54,7 @@ POPUP SECTION
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    background: url('../images/popup.jpg') center/cover no-repeat;
+    background: url('popup.jpg') center/cover no-repeat;
 }
 
 .popup-overlay {
@@ -994,5 +994,6 @@ RESPONSIVE DESIGN
 }
 
 @media (max-width:
+
 
 
