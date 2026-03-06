@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Day - Celebrating Women Power</title>
+     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/hero.jpg">
+     
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+ 
+    
+    <!-- AOS Animation CSS (optional) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <!-- POPUP - Welcome Message -->
+    <div class="popup" id="popup">
+        <div class="popup-overlay"></div>
+        <div class="popup-content">
+            <i class="fas fa-heart" style="font-size: 50px; color: #ff6ec7; margin-bottom: 20px;"></i>
+            <h1> Happy Women's Day </h1>
+            <p>Celebrating powerful women in Sports, Business and Politics</p>
+            <span class="popup-note">Inspiring Women • Inspiring World</span>
+        </div>
+    </div>
+
+    <!-- NAVBAR - Improved with icons -->
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo">
+                <i class="" style="margin-right: 8px;"></i>WomenPower
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sports">
+                            <i class="fas fa-medal"></i> Sports
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#business">
+                            <i class="fas fa-briefcase"></i> Business
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#politics">
+                            <i class="fas fa-landmark"></i> Politics
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- LEFT TEXT -->
+                <div class="col-lg-6 hero-text" data-aos="fade-right">
+                    <h5 class="hero-tag">
+                        <i class="fas fa-calendar-alt"></i> International Women's Day - March 8
+                    </h5>
+                    <h1 class="hero-title">
+                        Women <span>Who Inspire</span><br>
+                        The World
+                    </h1>
+                    <p class="hero-desc">
+                        Celebrating powerful women who changed history through
+                        sports, business and politics. Their stories motivate millions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#sports" class="btn explore-btn">
+                            <i class="fas fa-book-open"></i> Explore Stories
+                        </a>
+                        <a href="#about" class="btn learn-btn">
+                            <i class="fas fa-info-circle"></i> Learn More
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="col-lg-6 text-center" data-aos="fade-left">
+                    <div class="hero-img">
+                        <img src="images/hero.jpg" alt="Women's Day Celebration">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="container text-center">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-star"></i> Celebrating Women's Achievements
+            </h2>
+            <p class="section-text" data-aos="fade-up">
+                International Women's Day celebrates the social, economic, cultural and
+                political achievements of women around the world. Women continue to break
+                barriers in every field including sports, business and politics.
+            </p>
+
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏅</div>
+                        <h3>Sports</h3>
+                        <p>
+                            Women athletes inspire the world with determination,
+                            discipline and strength.
+                        </p>
+                        <a href="#sports" class="feature-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon">💼</div>
+                        <h3>Business</h3>
+                        <p>
+                            Women leaders transform industries through innovation
+                            and strategic leadership.
+                        </p>
+                        <a href="#business" class="feature-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏛️</div>
+                        <h3>Politics</h3>
+                        <p>
+                            Women in politics shape policies and influence the future
+                            of nations.
+                        </p>
+                        <a href="#politics" class="feature-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- TESTIMONIAL SECTION -->
+<section class="testimonial-section">
+    <div class="container">
+        <h2 class="section-title text-center" data-aos="fade-up">Inspiring Words</h2>
+        <p class="section-text text-center" data-aos="fade-up">What these amazing women teach us</p>
+        
+        <div class="row mt-5">
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"Dreams do come true, if you have the courage to pursue them."</p>
+                    <div class="testimonial-author">
+                        <strong>P. V. Sindhu</strong>
+                        <span>Olympic Medalist</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"Leadership is about making others better as a result of your presence."</p>
+                    <div class="testimonial-author">
+                        <strong>Indra Nooyi</strong>
+                        <span>Former CEO, PepsiCo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"To be liberated, woman must feel free to be herself."</p>
+                    <div class="testimonial-author">
+                        <strong>Indira Gandhi</strong>
+                        <span>First Female PM of India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- SPORTS SECTION -->
+    <section id="sports" class="section sports-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">
+                    <i class="fas fa-medal" style="color: #ffd700;"></i> Sports Icon
+                </h2>
+                <p class="section-subtitle">Breaking records, winning hearts</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="profile-img-container">
+                        <img src="images/sindhu.jpg" alt="P. V. Sindhu - Badminton Player" class="img-fluid profile-img">
+                        <div class="img-overlay">
+                            <span>Olympic Medalist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <h2 class="profile-title">P. V. Sindhu</h2>
+                    <p class="profile-desc">
+                        P. V. Sindhu is one of India's most successful badminton players.
+                        She won a silver medal at the 2016 Olympic Games and a bronze medal at the
+                        2020 Olympics. In 2019 she became the first Indian to win the
+                        BWF World Championship gold medal.
+                    </p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-value">🏅2</span>
+                            <span class="stat-label">Olympic Medals</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">🏆5</span>
+                            <span class="stat-label">World Medals</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">🥇1</span>
+                            <span class="stat-label">World Champion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BUSINESS SECTION -->
+    <section id="business" class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">
+                    <i class="fas fa-chart-line" style="color: #22d3ee;"></i> Business Leader
+                </h2>
+                <p class="section-subtitle">Leading global corporations with vision</p>
+            </div>
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="profile-img-container">
+                        <img src="images/indra.jpg" alt="Indra Nooyi - Former CEO PepsiCo" class="img-fluid profile-img">
+                        <div class="img-overlay">
+                            <span>Former CEO, PepsiCo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-right">
+                    <h2 class="profile-title">Indra Nooyi</h2>
+                    <p class="profile-desc">
+                        Indra Nooyi served as the CEO of PepsiCo from 2006 to 2018.
+                        Under her leadership the company grew into one of the world's most successful 
+                        food and beverage corporations. She is known for her leadership and innovative 
+                        global business strategies.
+                    </p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-value">📈12</span>
+                            <span class="stat-label">Years as CEO</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">💰$63B</span>
+                            <span class="stat-label">Revenue</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">🏆100+</span>
+                            <span class="stat-label">Awards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- POLITICS SECTION -->
+    <section id="politics" class="section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">
+                    <i class="fas fa-gavel" style="color: #ff6ec7;"></i> Political Icon
+                </h2>
+                <p class="section-subtitle">Shaping the destiny of a nation</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="profile-img-container">
+                        <img src="images/indira.jpg" alt="Indira Gandhi - Former Prime Minister of India" class="img-fluid profile-img">
+                        <div class="img-overlay">
+                            <span>First Female PM of India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <h2 class="profile-title">Indira Gandhi</h2>
+                    <p class="profile-desc">
+                        Indira Gandhi was the first female Prime Minister of India.
+                        She served the country for over 15 years and played an important role 
+                        in shaping India's political history. Her leadership and courage made 
+                        her one of the most influential political leaders in the world.
+                    </p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-value">🇮🇳15</span>
+                            <span class="stat-label">Years in Office</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">🌍1st</span>
+                            <span class="stat-label">Female PM</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">⚡1971</span>
+                            <span class="stat-label">War Hero</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- LATEST NEWS SECTION -->
+<section class="news-section">
+    <div class="container">
+        <h2 class="section-title text-center" data-aos="fade-up">Latest Achievements</h2>
+        <p class="section-text text-center" data-aos="fade-up">Recent milestones by women around the world</p>
+        
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-left">
+                <div class="news-card">
+                    <div class="news-date">March 2024</div>
+                    <h4 class="news-title">Indian Women's Cricket Team Wins Asia Cup</h4>
+                    <p class="news-excerpt">Team India creates history with record-breaking performance...</p>
+                    <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-left" data-aos-delay="100">
+                <div class="news-card">
+                    <div class="news-date">February 2024</div>
+                    <h4 class="news-title">New Record in Women's Entrepreneurship</h4>
+                    <p class="news-excerpt">Female-led startups raise $1 billion in funding this quarter...</p>
+                    <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-left" data-aos-delay="200">
+                <div class="news-card">
+                    <div class="news-date">January 2024</div>
+                    <h4 class="news-title">Women in Parliament: Global Record High</h4>
+                    <p class="news-excerpt">Number of women in politics reaches all-time high...</p>
+                    <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="quote-banner text-center">
+
+<h2>"There is no limit to what we can accomplish as women."</h2>
+
+<p>- Michelle Obama</p>
+
+</section>
+
+
+
+<!-- ACHIEVEMENT COUNTER SECTION -->
+<section class="counter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
+                <div class="counter-card">
+                    <div class="counter-icon">🏅</div>
+                    <div class="counter-number">500+</div>
+                    <div class="counter-text">International Athletes</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="counter-card">
+                    <div class="counter-icon">💼</div>
+                    <div class="counter-number">100+</div>
+                    <div class="counter-text">Women CEOs</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="counter-card">
+                    <div class="counter-icon">🏛️</div>
+                    <div class="counter-number">50+</div>
+                    <div class="counter-text">World Leaders</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="counter-card">
+                    <div class="counter-icon">🌟</div>
+                    <div class="counter-number">1000+</div>
+                    <div class="counter-text">Inspiring Stories</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- FOOTER - Improved -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">
+                        <i class="fas fa-female"></i> WomenPower
+                    </h4>
+                    <p class="footer-text">
+                        Celebrating women who inspire the world through their achievements in sports, business, and politics.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#sports"><i class="fas fa-chevron-right"></i> Sports</a></li>
+                        <li><a href="#business"><i class="fas fa-chevron-right"></i> Business</a></li>
+                        <li><a href="#politics"><i class="fas fa-chevron-right"></i> Politics</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter mt-3">
+                        <p>Subscribe for updates:</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                            <button class="btn btn-subscribe">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.1); margin: 20px 0;">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">© 2024 Women's Day | Created with <i class="fas fa-heart" style="color: #ff6ec7;"></i>  Angad</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">International Women's Day - March 8</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button onclick="topFunction()" id="backToTop" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
